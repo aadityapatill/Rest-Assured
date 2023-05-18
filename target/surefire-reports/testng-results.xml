@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-18T17:21:21 IST" name="Surefire suite" finished-at="2023-05-18T17:21:25 IST" duration-ms="3784">
+    <groups>
+    </groups>
+    <test started-at="2023-05-18T17:21:21 IST" name="Surefire test" finished-at="2023-05-18T17:21:25 IST" duration-ms="3784">
+      <class name="org.example.RestAssuredAPITest">
+        <test-method signature="GetBookDetails()[pri:0, instance:org.example.RestAssuredAPITest@4c309d4d]" started-at="2023-05-18T17:21:21 IST" name="GetBookDetails" finished-at="2023-05-18T17:21:23 IST" duration-ms="1789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBookDetails -->
+        <test-method signature="GetBooksDetails()[pri:0, instance:org.example.RestAssuredAPITest@4c309d4d]" started-at="2023-05-18T17:21:23 IST" name="GetBooksDetails" finished-at="2023-05-18T17:21:24 IST" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBooksDetails -->
+        <test-method signature="GetPetDetails()[pri:0, instance:org.example.RestAssuredAPITest@4c309d4d]" started-at="2023-05-18T17:21:24 IST" name="GetPetDetails" finished-at="2023-05-18T17:21:25 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetPetDetails -->
+        <test-method signature="GetWeatherDetailsCondensed()[pri:0, instance:org.example.RestAssuredAPITest@4c309d4d]" started-at="2023-05-18T17:21:25 IST" name="GetWeatherDetailsCondensed" finished-at="2023-05-18T17:21:25 IST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetWeatherDetailsCondensed -->
+      </class> <!-- org.example.RestAssuredAPITest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
