@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    triggers{
+       scm('H/1 * * * *')
+    }
     stages {
         stage('Git Checkout') {
             steps {
